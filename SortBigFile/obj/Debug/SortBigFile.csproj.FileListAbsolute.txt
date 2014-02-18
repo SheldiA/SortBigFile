@@ -1,0 +1,9 @@
+D:\Project c#\SortBigFile\SortBigFile\bin\Debug\SortBigFile.exe.config
+D:\Project c#\SortBigFile\SortBigFile\bin\Debug\SortBigFile.exe
+D:\Project c#\SortBigFile\SortBigFile\bin\Debug\SortBigFile.pdb
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.csprojResolveAssemblyReference.cache
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.FormMain.resources
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.Properties.Resources.resources
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.csproj.GenerateResource.Cache
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.exe
+D:\Project c#\SortBigFile\SortBigFile\obj\Debug\SortBigFile.pdb
