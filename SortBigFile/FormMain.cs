@@ -34,6 +34,7 @@ namespace SortBigFile
             sw.Close();*/
             Sorter sorter = new Sorter("file.txt");
             sorter.SortBigFile();
+            MessageBox.Show("Sort was completed");
         }
     }
 }

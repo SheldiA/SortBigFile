@@ -25,7 +25,8 @@ namespace SortBigFile
                 {
                     Swap(array,left,right);
                     ++left;
-                    --right;
+                    if(right > 0)
+                        --right;
                 }
 
             }while(left <= right);
