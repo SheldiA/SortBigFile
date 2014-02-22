@@ -61,5 +61,34 @@ namespace SortBigFile
             }
             return result;
         }
+
+        public void SortStruct(List<Sorter.BlockElement> array, int begin, int end)
+        {
+            int left = begin;
+            int right = end;
+            string middle = array[(begin + end) / 2].firstElement;
+            do
+            {
+
+                while (String.Compare(array[left].firstElement, middle) < 0)
+                    ++left;
+                while (String.Compare(array[right].firstElement, middle) > 0)
+                    --right;
+                if (left <= right)
+                {
+                    Sorter.BlockElement temp = array[left];
+                    array[left] = array[right];
+                    array[right] = temp;
+                    ++left;
+                    if (right > 0)
+                        --right;
+                }
+
+            } while (left <= right);
+            if (left < end)
+                SortStruct(array, left, end);
+            if (begin < end)
+                SortStruct(array, begin, right);
+        }
     }
 }
